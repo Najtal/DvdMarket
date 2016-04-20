@@ -1,0 +1,303 @@
+
+/**********************
+	Style DvdMarket 
+ *********************/
+
+ 
+/* UTIL */
+.center {
+	text-align: center;
+}
+.picture_mini {
+	position: absolute;
+	margin-top: -3px;
+	border: 0px;
+}
+.title_box {
+	border: solid #CCCCCC;
+	border-width: 1px 1px 1px 1px;
+	background-color: #EDF2F5;
+	height: 23px;
+	width: 90%;
+	padding-top: 8px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	font-weight: bold;
+}
+.smallform {
+	padding: 7px;
+	border: 1px solid #999;
+	font: 1.1em Calibri;
+	width: 240px;
+	color: #08c;
+}
+.form_button {
+	width: 200px;
+	text-align: center;
+}
+.formtab {
+	padding : 0 80px;
+}
+.ico {
+	margin-left: 20px;
+}
+.empty {
+	width: 220px;
+	height: 74px;
+}
+.empty a {
+	border: 0;
+}
+.vue_detaillee {
+	min-height: 185px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-top: 10px;
+	border: 1px white dotted;
+}
+.vue_detaillee:hover {
+	min-height: 185px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-top: 10px;
+	background: #EAF5E8;
+	border: 1px gray dotted;
+}
+#loupe {
+	text-align: right;
+	margin-top: -47px;
+	padding-bottom: 50px;
+}
+#loupe a {
+	border: 0;
+}
+
+
+/* TABLEAU */
+.liste_dvd_tab {
+	width: 100%;	
+	margin-top: -15px;
+	margin-bottom: 50px;
+	border-radius: 10px 10px 10px 10px;
+}
+.liste_dvd_ligne_titre {
+	height: 40px;
+	background-color:#D8DFEA;
+	text-align:center;
+	color: #000000;
+	font-weight: bold;
+}
+.liste_dvd_ligne {
+	height: 20px;
+	background-color:#FFFFFF;
+}
+.liste_dvd_ligne2 {
+	height:20px;
+	background-color:#EDEFF4;
+}
+.liste_dvd_id {
+	width: 50px;
+	text-align:center;
+}
+.liste_dvd_titre {
+	width: auto;
+	padding: 15px;
+}
+.liste_dvd_genre {
+	width: 130px;
+	text-align:center;
+}
+.liste_dvd_prix {
+	width: 70px;
+	text-align:center;
+}
+
+
+
+/* MESSAGES */
+.tab_msg {
+	border: 1px solid #D7DEE4;
+	width:100%;
+	padding-left: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.msg_bt {
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	height: 25px;
+}
+.tab_bt_msg {
+	width:100%;
+	text-align: center;
+	margin-bottom: 28px;
+}
+
+/* PRODUITS */
+.tab_produit {
+	width: 180px;
+}
+.produit_cover_mini_div {
+	position:relative;
+	width: 150px;
+	height: 220px;
+	margin-left:25px;
+	padding: 2px;
+	border: 1px solid #808080;
+}
+.produit_cover_mini_div:hover {
+	position:relative;
+	width: 150px;
+	height: 220px;
+	margin-left:25px;
+	padding: 2px;
+	background: #A9F5A9;
+	border: 1px solid #808080;
+}
+#produit_cover {
+	position: absolute;
+	width: 181px;
+	height: 260px;
+	margin-left: 20px;
+	padding: 2px;
+	border: 1px solid #808080;
+}
+.produit_info1 {
+	margin-left: 250px;
+}
+.produit_cover {
+	height: 260px;
+	width: 181px;
+}
+
+
+/* PANIER */
+.tab_panier {
+	width: 200px;
+}
+.panier_cover {
+	width: 115px;
+	height: 170px;
+}
+#panier_cover {
+	position: absolute;
+	width: 115px;
+	height: 170px;
+	margin-left: 500px;
+	padding: 2px;
+	border: 1px solid #808080;
+}
+
+/* PROFILE */
+.links_in_profil {
+	margin-left: 30px;
+}
+#photo_profil {
+	margin-top: 50px;
+	margin-left: 350px;
+	width: 256px;
+	height: 256px;
+	position: absolute;
+}
+.radio {
+	width : 30px;
+}
+
+
+/* VITRINE */
+.tab_vitrine_div {
+	width: 99%;
+}
+.tab_vitrine {
+	text-align: center;
+	width: 33%;
+}
+.tab_vitrine_spacement {
+	height: 30px;
+}
+.produit_cover_mini {
+	height: 220px;
+	width: 150px;
+	border:0;
+}
+
+
+/* LOGIN */
+.form_login{
+	padding: 0px;
+	border: 0px solid #999;
+	font: 1em;
+	width: 120px;
+	color: #08c;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+}
+
+
+/* RECHERCHE */
+.input_recherche {
+	padding: 0 0 0 10px;
+	border: 1px solid #999;
+	font: 1em;
+	width: 140px;
+	height:35px;
+	color: #08c;
+}
+.submit_recherche {
+	padding: 0px;
+	border: 1px solid #999;
+	font: 1em;
+	width: 35px;
+	height:35px;
+	color: #08c;
+}
+.submit_recherche2 {
+	padding: 0px;
+	border: 1px solid #999;
+	font: 1em;
+	width: 100px;
+	height:35px;
+	color: #08c;
+}
+
+
+/* INFO BULLES */
+a.info {
+   position: relative;
+   color: black;
+   text-decoration: none;
+   border-bottom: 1px gray dotted; /* On souligne le texte. */
+}
+a.info span {
+   display: none; /* On masque l'infobulle. */
+}
+a.info:hover {
+   background: none; /* Correction d'un bug d'Internet Explorer. */
+   z-index: 500; /* On définit une valeur pour l'ordre d'affichage. */
+
+   cursor: help; /* On change le curseur par défaut par un curseur d'aide. */
+}
+a.info:hover span {
+
+   display: inline; /* On affiche l'infobulle. */
+   position: absolute;
+
+   white-space: nowrap; /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+
+   top: -70px; /* On positionne notre infobulle. (30, 20)*/
+   left: 240px;
+
+   background-color: #FFFFFF; 
+   
+   color: #102644;
+   padding: 3px;
+
+   border: 1px solid;
+   border-color: #06080B;
+}
+.info_cover {
+	width: 150px;
+	height: 220px; 
+}

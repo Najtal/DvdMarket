@@ -1,0 +1,291 @@
+
+/**********************
+	Style DvdMarket 
+ *********************/
+
+
+
+/* GENERAL */
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #D7DEE4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #161B25;
+}
+
+a { 
+	text-decoration:none;
+	color: #161B25;
+	font-size: 1em;
+	border-bottom: 1px gray dotted;
+}
+a:hover {
+	color: #B55909;
+	font-size: 1em;
+}
+a:visited {
+	text-decoration:none;
+	color: #161B25;
+	border-bottom: 1px gray dotted;
+}
+a:visited:hover {
+	color: #B55909;
+	font-size: 1em;
+}
+p {
+	padding: 0px;
+	margin: 0px;
+}
+input, textarea, select {
+	padding: 7px;
+	border: 1px solid #999;
+	font: 1.2em Calibri;
+	width: 400px;
+	color: #08c;
+}
+
+
+/* HEADER */
+#header {
+	border-top-style: 0;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-left-style: 0;
+	border-top-color: 0;
+	border-right-color: 0;
+	border-bottom-color: 0;
+	border-left-color: 0;
+	background-position: bottom;
+	padding: 5px 0px 15px 0px;
+	margin: 0px;
+	border-width: 0px;
+	background-color: #363636;
+	border-style: none;
+	border-color: inherit;
+	height: 60px;
+	width: 100%;
+	color: #FFFFFF;
+	vertical-align: middle;
+	text-align: center;
+	background-image: url('../images/rendu_graphique/header_ bg.jpg');
+	background-repeat: repeat-x;
+}
+#menu_main {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	height: 60px;
+	background-image: url('../images/rendu_graphique/logo.jpg');
+	background-repeat: no-repeat;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#menu_main a {
+	border: 0px;
+}
+#menu_main a:visited {
+	border: 0px;
+}
+
+#empty_link {
+	position: absolute; 
+	left: 50%; 
+	margin-left: -520px;
+	width: 220px;
+	height: 90px;
+}
+
+/* HEADER : menu */
+.menulist{
+	padding-right: 120px;
+	padding-top: 5px;
+}
+.menulist li{
+ display: inline;
+ list-style-type: none;
+ padding-right: 15px;
+ }
+.menulist a {
+	color: #DDDDDD;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.menulist a:hover {
+	color: #FFFFFF;
+	font-size: 1em;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTENEUR */
+#conteneur {
+	width: 1000px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/* CONTENEUR : barre suppérieure */
+#contenu_head {
+	background-image: url('../images/rendu_graphique/header.jpg');
+	background-repeat: no-repeat;
+	height: 57px;
+	width: 920px;
+	padding: 20px 40px 30px 40px;
+}
+
+
+/* CONTENEUR : barre suppérieure - titre*/
+#titreh2 {
+	width: 500px;
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 20px;
+	color: #006699;
+}
+
+
+/* CONTENEUR : corps */
+#contenu_corps {
+	background-image: url('../images/rendu_graphique/contenu.jpg');
+	min-height: 600px;
+	padding-right: 50px;
+	padding-left: 40px;
+	height: auto;
+	width: 910px;
+}
+
+
+/* CONTENEUR : corps - menu secondaire*/
+#menu_sub {
+	position: absolute;
+	width: 200px;
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+#menu_sub a {
+	border: 0px;
+}
+#menu_sub a:visited {
+	border: 0px;
+}
+
+
+/* CONTENEUR : conteneur */
+#contenu_main{
+	min-height: 500px;
+	background-image: url('../images/rendu_graphique/menu_sep_bg.jpg');
+	background-repeat: no-repeat;
+	margin-left: 200px;
+	width: 650px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+
+/* FOOTER */
+#contenu_footer {
+	padding: 0px;
+	background-image: url('../images/rendu_graphique/footer.jpg');
+	height: 70px;
+	width: 1000px;
+}
+#footer_bot {
+	background-image: url('../images/rendu_graphique/footer_bot.jpg');
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 100%;
+}
+#footer_txt {
+	padding: 20px 50px 20px 50px;
+	color: #666666;
+	text-align: center;
+	font-size: 0.8em;
+}
+#footer_txt a {
+	color: #666666;
+	border: 0px;
+}
+#footer_txt a:hover {
+	color: #000000;
+	border: 0px;
+}
+.menu_title {
+	font-size: 1.1em;
+	height: 25px;
+	width: 100%;
+	color: #0099CC;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+
+/* Message d'erreur ou de succès */
+#message_ok {
+	width: 720px;
+	margin: 30px auto -25px auto;
+	background-color: #CCFFCC;
+	border: 1px dotted #009933;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 10px 40px 7px 40px;
+}
+#message_error {
+	width: 720px;
+	margin: 30px auto -25px auto;
+	background-color: #FFCCCC;
+	border: 1px dotted #990000;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 10px 40px 7px 40px;
+}
+.message_ico {
+	padding: 0px;
+	position: absolute;
+	margin: -5px 0px 0px 0px;
+}
+.message_txt {
+	padding-left: 40px;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
